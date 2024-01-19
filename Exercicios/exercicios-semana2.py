@@ -1,6 +1,27 @@
 #1. Faça um Programa que peça dois números, realize as principais operações soma, subtração, multiplicação, divisão
 
-#2. Peça ao usuário para informar o ano denascimento. Ems eguida,calcule e imprima a idade atual.
+numero1 = int(input('Digite um número inteiro: '))
+numero2 = int(input('Digite outro número inteiro: '))
+
+soma = numero1 + numero2
+subtracao = numero1 - numero2
+multiplicacao = numero1*numero2
+divisao = numero1/numero2
+
+print(f'A soma desses dois números é {soma}')
+print(f'A substração desses dois números é {subtracao}')
+print(f'A multiplicação desses dois números é {multiplicacao}')
+print(f'A divisão desses dois números é {divisao}')
+
+
+#2. Peça ao usuário para informar o ano de nascimento. Em seguida, calcule e imprima a idade atual.
+
+anoNascimento = int(input('Digite sua data de nascimento: '))
+anoAtual = 2024
+
+idade = anoAtual - anoNascimento
+
+print(f'Sua idade é: {idade} anos')
 
 #3. Faça um Programa que peça a quantidade de quilômetros, transforme em metros, centímetros e milímetros.
 
@@ -24,9 +45,9 @@
 
 #10. Faça um Programa que utilize 4 variáveis como preferir e no final print uma mensagem amigável utilizando as variáveis criadas. Exemplos de variáveis: nome, idade, lugar, profissão.... Exemplo de retorno: Olá Maria,prazer te conhecer. Sou de São Paulo também e estou migrando de área. Lembrando que para o retorno vamos usar print com as variáveis criadas e este texto é somente um exemplo, utilizem a criatividade
 
-nome = (input('Por favor, digite seu nome: '))
-idade = (input('Por favor, digite sua idade: '))
-estado = (input('Qual o estado que você reside: '))
+nome = input('Por favor, digite seu nome: ')
+idade = input('Por favor, digite sua idade: ')
+estado = input('Qual o estado que você reside: ')
 email = 'brazil@pyladies.com'
 
 print (f'Olá {nome}, você está com {idade} e reside no estado de {estado}. Envie um e-mail para {email} e saiba mais informações sobre o grupo PyLadies, um grupo com o propósito de ajudar mais e mais mulheres a se tornarem participantes ativas e líderes na comunidade open source Python' )
