@@ -25,7 +25,25 @@ print(f'Sua idade é: {idade} anos')
 
 #3. Faça um Programa que peça a quantidade de quilômetros, transforme em metros, centímetros e milímetros.
 
+km = int(input('Insira a quantidade de quilômetros: ' ))
+
+metro = km*1000 
+
+cm = km*100000
+
+mm = km*1000000
+
+print(f'{km} é o equivalente a {metro} metros, {cm} centímetros e {mm} milímetros')
+
 #4. Receba do usuário a quantidade de litros de combustível consumidos e a distância percorrida. Calcule e imprima o consumo médio em km/l.
+
+litrosConsumidos = int(input('Qual a quantidade de litros de combustível consumidos? '))
+distanciaPercorrida = int(input('Qual a distância percorrida (em km)? '))
+
+resultado = distanciaPercorrida/litrosConsumidos
+
+print(f'Você percorreu {resultado} km/l')
+
 
 #5. Escreva um programa que calcule o salário líquido. Lembrando de declarar o salário bruto e o percentual de desconto do Imposto de Renda.
 #●Renda até R$1.903,98: isento de imposto de renda;
