@@ -3,30 +3,39 @@ Bootcamp back-end Python e Django oferecido pela WomakersCode
 
 #### EXERCÍCIOS - SEMANA 2
 
-###### 1. Faça um Programa que peça dois números, realize as principais operações soma, subtração, multiplicação, divisão
+Exercícios Tomada de Decisão
+1. Faça um Programa que peça dois números e imprima o maior deles.
+2. Faça um Programa que pergunte em que turno você estuda. Peça para
+digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom
+Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+3. Faça um programa que peça uma nota, entre zero e dez. Mostre uma
+mensagem caso o valor seja inválido e continue pedindo até que o usuário
+informe um valor válido.
+4. Implemente um programa que classifique um aluno com base em sua
+pontuação em um exame. O programa deverá solicitar uma nota de 0 a 10. Se
+a pontuação for maior ou igual a 7, o aluno é aprovado; caso contrário, é
+reprovado.
+5. Desenvolva um programa que solicite ao usuário os comprimentos dos três
+lados de um triângulo e classifique-o como equilátero, isósceles ou escaleno.
+equilátero: todos os lados com o mesmo valor
+isósceles: dois lados com o mesmo valor
+escaleno: todos os lados com medidas distintas.
+6. Crie um programa que solicite ao usuário um login e uma senha. O
+programa deve permitir o acesso apenas se o usuário for "admin" e a senha
+for "admin123", caso contrário imprima uma mensagem de erro.
+7. Desenvolver um programa que solicite a idade do usuário e identifique se
+ele é uma criança, um adolescente, adulto ou idoso.
+8. Criar um programa em Python que solicite três números ao usuário, utilize
+estruturas condicionais para determinar o maior entre eles e apresente o
+resultado.
+9. O programa deve calcular e apresentar a quantidade de números pares e
+ímpares inseridos. O processo de leitura deve ser encerrado quando o usuário
+informar o valor zero. Certifique-se de incluir validações para garantir que
+apenas números positivos sejam considerados na contagem e cálculos.
+10. Faça um programa que lê três números inteiros e os mostra em ordem
+crescente.
 
-###### 2. Peça ao usuário para informar o ano de nascimento. Em seguida, calcule e imprima a idade atual.
-
-###### 3. Faça um Programa que peça a quantidade de quilômetros, transforme em metros, centímetros e milímetros.
-
-###### 4. Receba do usuário a quantidade de litros de combustível consumidos e a distância percorrida. Calcule e imprima o consumo médio em km/l.
-
-###### 5. Escreva um programa que calcule o salário líquido. Lembrando de declarar o salário bruto e o percentual de desconto do Imposto de Renda.
-###### ●Renda até R$1.903,98: isento de imposto de renda;
-###### ●Renda entre R$1.903,99 e R$2. 826,65: alíquota de 7,5%;
-###### ●Renda entre R$2.826,66 e R$3.751,05: alíquota de 15%;
-###### ●Renda entre R$3.751,06 e R$4.664,68: alíquota de22,5%;
-###### ●Renda acima de R$4.664,68: alíquota máximad e27,5%.
-
-###### 6. Escreva ump rograma que calcule o tempo de uma viagem. Faça um comparativo do mesmo percurso de avião,carro e ônibus. Levando em consideração: ●avião= 600km/h ●carro= 100km/h● ônibus= 80km/h
-
-###### 7. Solicite ao usuário o peso em kg e a altura e metros. Calcule e imprima o Índice de Massa Corporal(IMC) usando a fórmula: IMC=peso/(altura x altura).
-
-###### 8. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas nomês. Calcule e mostre o total do seu salário no referido mês.
-
-###### 9. Solicite ao usuário o número de horas de exercício físico por semana. Calcule o total de calorias queimadas em um mês, considerando uma média de 5 calorias por minuto de exercício.
-
-###### 10. Faça um Programa que utilize 4 variáveis como preferir e no final print uma mensagem amigável utilizando as variáveis criadas. Exemplos de variáveis: nome, idade, lugar, profissão.... Exemplo de retorno: Olá Maria,prazer te conhecer. Sou de São Paulo também e estou migrando de área. Lembrando que para o retorno vamos usar print com as variáveis criadas e este texto é somente um exemplo, utilizem a criatividade
+#### EXERCÍCIOS - SEMANA 3
 
 Exercícios Tuplas, Listas e Dicionários
 1. Utilizando listas faça um programa que faça 5 perguntas para uma
