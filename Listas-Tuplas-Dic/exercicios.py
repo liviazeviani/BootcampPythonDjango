@@ -76,4 +76,13 @@ tupla_escola = ('lápis', 'caderno')
 tupla_mercado = ('leite', 'pão')
 print(tupla_escola + tupla_mercado)
 
+#solicitando a tupla ao usuário
+
+tupla1 = []
+tupla2 = []
+item_da_tupla1 = tupla1.append(input('Insira um item: '))
+item_da_tupla2 = tupla2.append(input('Insira outro item: '))
+
+concatena_tupla = tupla1 + tupla2
+print(concatena_tupla)
 #exercício 6 - semana 3
