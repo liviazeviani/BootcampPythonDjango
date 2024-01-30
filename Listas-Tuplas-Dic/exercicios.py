@@ -66,6 +66,14 @@ print(f'A quantidade de compras no seu carrinho é de {quantidade}')
 
 #exercício 4 - semana 3
 
+contatos = {} #criando dicionário
+contatos['nome'] = 'telefone'
+
 #exercício 5 - semana 3
+#concatenação de tuplas
+
+tupla_escola = ('lápis', 'caderno')
+tupla_mercado = ('leite', 'pão')
+print(tupla_escola + tupla_mercado)
 
 #exercício 6 - semana 3
