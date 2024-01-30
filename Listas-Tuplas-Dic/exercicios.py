@@ -52,3 +52,20 @@ for media in medias:
 
 
 print(f"{aprovados} alunos obtiveram média maior ou igual a 7.0")
+
+#exercício 3 - semana 3
+
+carrinho = {}
+carrinho['produto'] = 0
+carrinho['arroz'] = 1
+carrinho['feijão'] = 1
+carrinho['leite'] = 3
+carrinho['sal'] = 1
+quantidade = sum(carrinho.values())
+print(f'A quantidade de compras no seu carrinho é de {quantidade}')
+
+#exercício 4 - semana 3
+
+#exercício 5 - semana 3
+
+#exercício 6 - semana 3
